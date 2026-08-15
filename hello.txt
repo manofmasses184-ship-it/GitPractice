@@ -1,3 +1,1 @@
-Hello Git
-Learnig it
-login feature development
+hello from master
