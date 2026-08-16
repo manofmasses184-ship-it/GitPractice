@@ -1,12 +1,12 @@
-name: First Workflow
+name: Python Test
 
 on:
   push:
 
 jobs:
-  hello:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say Hello
-        run: echo "Hello from GitHub Actions!"
+      - name: Run Python script
+        run: python test.py
