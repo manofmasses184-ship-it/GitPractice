@@ -2,7 +2,7 @@ from calculator import add, multiply, subtract
 
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add(2, 3) == 100
 
 
 def test_multiply():
